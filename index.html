@@ -29,7 +29,6 @@
                     },
                     animation: {
                         'fade-in': 'fadeIn 1s ease-out',
-                        // Animation pour les Skeletons
                         'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
                     },
                     keyframes: {
@@ -117,7 +116,7 @@
             border-left: 2px solid #334155;
         }
 
-        /* Animation d'apparition (Scroll Reveal) */
+        /* Animation d'apparition */
         .reveal {
             opacity: 0;
             transform: translateY(30px);
@@ -282,12 +281,13 @@
                 class="block w-full py-3.5 bg-brand-blue text-white text-center rounded-xl font-bold shadow-lg shadow-blue-500/20 active:scale-95 transition-all hover:bg-blue-600 hover:-translate-y-0.5">Me
                 contacter</a>
             <div class="mt-6 flex justify-center space-x-4">
-                <a href="#" class="text-slate-400 hover:text-brand-dark transition-colors"><svg class="w-5 h-5"
+                <a href="https://www.linkedin.com/in/golbin-dorian/"
+                    class="text-slate-400 hover:text-brand-dark transition-colors"><svg class="w-5 h-5"
                         fill="currentColor" viewBox="0 0 24 24">
                         <path
                             d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                     </svg></a>
-                <a id="nav-github-link" href="#" target="_blank"
+                <a id="nav-github-link" href="https://github.com/GOLBIN-Dorian" target="_blank"
                     class="text-slate-400 hover:text-brand-dark transition-colors"><svg class="w-5 h-5"
                         fill="currentColor" viewBox="0 0 24 24">
                         <path
@@ -448,7 +448,7 @@
                         <span
                             class="px-3 py-1 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-400 rounded-lg text-sm border border-teal-100 dark:border-teal-800">Tailwind</span>
                         <span
-                            class="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded-lg text-sm">JS</span>
+                            class="px-3 py-1 bg-slate-100 dark:bg-slate-707 text-slate-600 dark:text-slate-300 rounded-lg text-sm">JS</span>
                         <span
                             class="px-3 py-1 bg-yellow-50 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400 rounded-lg text-sm border border-yellow-100 dark:border-yellow-800">ExpressJS</span>
                     </div>
@@ -508,6 +508,7 @@
 
             <div
                 class="relative border-l-2 border-slate-300 dark:border-slate-700 ml-4 md:ml-6 md:pl-0 space-y-16 timeline-border">
+
                 <div class="relative pl-8 md:pl-0">
                     <div
                         class="absolute -left-[9px] -top-1.5 w-5 h-5 bg-brand-blue rounded-full border-4 border-slate-50 dark:border-slate-900 shadow-sm z-10">
@@ -567,6 +568,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -676,7 +678,7 @@
                     <p class="text-slate-500 dark:text-slate-400 mt-2">Expériences professionnelles et projets
                         personnels.</p>
                 </div>
-                <a id="github-profile-link" href="#" target="_blank"
+                <a id="github-profile-link" href="https://github.com/GOLBIN-Dorian" target="_blank"
                     class="hidden md:inline-flex items-center font-medium text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-blue transition">
                     Mon GitHub <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -724,7 +726,6 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-
                 <div
                     class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-2xl border-l-4 border-brand-blue shadow-sm flex flex-col justify-between">
                     <div>
@@ -750,7 +751,7 @@
                                 <div>
                                     <strong class="text-slate-800 dark:text-slate-200">Sécurité des Données :</strong>
                                     <p class="text-sm text-slate-600 dark:text-slate-400">Bonnes pratiques de sécurité,
-                                        gestion des mots de passe, et protection des bases de données.</p>
+                                        gestion des mots de passe.</p>
                                 </div>
                             </li>
                             <li class="flex items-start">
@@ -763,7 +764,6 @@
                             </li>
                         </ul>
                     </div>
-
                     <div class="mt-8 pt-6 border-t border-slate-200 dark:border-slate-700">
                         <h4 class="text-sm font-bold text-slate-700 dark:text-slate-300 mb-3">Mes Outils de Veille :
                         </h4>
@@ -790,12 +790,10 @@
                         <span
                             class="text-xs font-normal text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-700 px-2 py-1 rounded border dark:border-slate-600">Live</span>
                     </h3>
-
                     <div id="rss-feed-container" class="space-y-4 flex-1 overflow-y-auto max-h-[350px] pr-2 rss-scroll">
                         <p class="text-sm text-slate-400 italic">Chargement des articles...</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -807,9 +805,7 @@
                 <h2 class="text-3xl font-bold text-brand-dark dark:text-white">Centres d'Intérêt</h2>
                 <p class="text-slate-500 dark:text-slate-400 mt-2">Ce qui m'anime en dehors du code.</p>
             </div>
-
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-
                 <div
                     class="bg-white dark:bg-dark-card p-8 rounded-2xl shadow-sm hover:shadow-md transition-all text-center group">
                     <div
@@ -825,7 +821,6 @@
                         <strong>Mangas et les Animes</strong>.
                     </p>
                 </div>
-
                 <div
                     class="bg-white dark:bg-dark-card p-8 rounded-2xl shadow-sm hover:shadow-md transition-all text-center group">
                     <div
@@ -840,7 +835,6 @@
                     <p class="text-sm text-slate-600 dark:text-slate-300">Amateur de <strong>Science-fiction,
                             Fantastique et Thriller</strong>.</p>
                 </div>
-
                 <div
                     class="bg-white dark:bg-dark-card p-8 rounded-2xl shadow-sm hover:shadow-md transition-all text-center group">
                     <div
@@ -855,7 +849,6 @@
                     <p class="text-sm text-slate-600 dark:text-slate-300">Montage de PC, veille hardware et jeux vidéo.
                     </p>
                 </div>
-
                 <div
                     class="bg-white dark:bg-dark-card p-8 rounded-2xl shadow-sm hover:shadow-md transition-all text-center group">
                     <div
@@ -870,7 +863,6 @@
                     <p class="text-sm text-slate-600 dark:text-slate-300">Je dessine à mes heures perdues. Un moyen
                         d'évasion et de créativité.</p>
                 </div>
-
             </div>
         </div>
     </section>
@@ -893,705 +885,6 @@
             <div class="mt-12 text-sm text-slate-500">&copy; 2026 Dorian Golbin.</div>
         </div>
     </footer>
-
-    <div id="pdf-modal" class="fixed inset-0 z-[60] hidden" aria-labelledby="modal-title" role="dialog"
-        aria-modal="true">
-        <div class="fixed inset-0 bg-gray-900 bg-opacity-75 transition-opacity" onclick="closePdf()"></div>
-        <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
-            <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
-                <div
-                    class="relative transform overflow-hidden rounded-lg bg-white dark:bg-dark-card text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-4xl h-[80vh]">
-                    <div
-                        class="bg-gray-50 dark:bg-slate-800 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6 border-b border-gray-200 dark:border-slate-700">
-                        <button type="button"
-                            class="mt-3 inline-flex w-full justify-center rounded-md bg-white dark:bg-slate-700 px-3 py-2 text-sm font-semibold text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-slate-600 hover:bg-gray-50 dark:hover:bg-slate-600 sm:mt-0 sm:w-auto"
-                            onclick="closePdf()">Fermer</button>
-                        <h3 class="text-base font-semibold leading-6 text-gray-900 dark:text-white mr-auto pt-2"
-                            id="modal-title">Visualisation du document</h3>
-                    </div>
-                    <div class="h-full w-full bg-gray-100 dark:bg-slate-900">
-                        <iframe id="pdf-frame" src="" class="w-full h-full" frameborder="0"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="project-modal"
-        class="fixed inset-0 z-[70] hidden bg-gray-900/80 flex items-center justify-center p-4 backdrop-blur-sm"
-        onclick="closeProjectModal()">
-        <div class="bg-white dark:bg-dark-card rounded-2xl max-w-2xl w-full p-8 relative shadow-2xl transform transition-all h-[80vh] flex flex-col"
-            onclick="event.stopPropagation()">
-            <button onclick="closeProjectModal()" class="absolute top-4 right-4 text-slate-400 hover:text-red-500"><svg
-                    class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg></button>
-            <h3 id="modal-title" class="text-2xl font-bold text-brand-dark dark:text-white mb-4"></h3>
-            <div id="modal-desc"
-                class="text-slate-600 dark:text-slate-300 mb-6 markdown-body overflow-y-auto flex-1 pr-2"></div>
-            <div class="flex gap-4 mt-auto">
-                <a id="modal-link-code" href="#" target="_blank"
-                    class="flex-1 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 py-3 rounded-lg text-center font-bold hover:bg-slate-200 transition">Voir
-                    le Code</a>
-                <a id="modal-link-live" href="#" target="_blank"
-                    class="flex-1 bg-brand-blue text-white py-3 rounded-lg text-center font-bold hover:bg-blue-600 transition hidden">Voir
-                    le Site</a>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // TYPEWRITER EFFECT
-        const textElement = document.getElementById('typewriter-text');
-        const phrases = ["Logiciel", "Back-End PHP", "Front-End JS", "Fullstack"];
-        let phraseIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-
-        function type() {
-            const currentPhrase = phrases[phraseIndex];
-            if (isDeleting) {
-                textElement.textContent = currentPhrase.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                textElement.textContent = currentPhrase.substring(0, charIndex + 1);
-                charIndex++;
-            }
-
-            if (!isDeleting && charIndex === currentPhrase.length) {
-                setTimeout(() => isDeleting = true, 2000);
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                phraseIndex = (phraseIndex + 1) % phrases.length;
-            }
-
-            const speed = isDeleting ? 50 : 150;
-            setTimeout(type, speed);
-        }
-        document.addEventListener('DOMContentLoaded', type);
-
-        // MODALE PROJET AVEC FETCH README
-        async function openProjectModal(repo) {
-            document.getElementById('modal-title').innerText = repo.name.replace(/[-_]/g, ' ');
-            const modalDesc = document.getElementById('modal-desc');
-            const codeLink = document.getElementById('modal-link-code');
-            const liveLink = document.getElementById('modal-link-live');
-
-            codeLink.href = repo.html_url;
-            if (repo.homepage) {
-                liveLink.href = repo.homepage;
-                liveLink.classList.remove('hidden');
-            } else {
-                liveLink.classList.add('hidden');
-            }
-
-            // Afficher le loader Skeleton dans la modale
-            modalDesc.innerHTML = `
-                <div class="animate-pulse space-y-3">
-                    <div class="h-4 bg-slate-200 dark:bg-slate-700 rounded w-3/4"></div>
-                    <div class="h-4 bg-slate-200 dark:bg-slate-700 rounded w-full"></div>
-                    <div class="h-4 bg-slate-200 dark:bg-slate-700 rounded w-5/6"></div>
-                    <div class="h-32 bg-slate-200 dark:bg-slate-700 rounded w-full mt-4"></div>
-                </div>
-            `;
-
-            document.getElementById('project-modal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden'; // Empêcher le scroll derrière
-
-            // Récupérer le README depuis GitHub (Raw content)
-            try {
-                // Essayer la branche main, puis master si échec
-                let readmeUrl = `https://raw.githubusercontent.com/${githubUsername}/${repo.name}/${repo.default_branch}/README.md`;
-                const response = await fetch(readmeUrl);
-
-                if (response.ok) {
-                    const text = await response.text();
-                    // Convertir Markdown en HTML via marked.js
-                    modalDesc.innerHTML = marked.parse(text);
-                } else {
-                    throw new Error("Readme introuvable");
-                }
-            } catch (e) {
-                // Fallback sur la description courte si pas de README
-                modalDesc.innerHTML = `<p>${repo.description || "Aucune description détaillée disponible pour ce projet."}</p>`;
-            }
-        }
-        function closeProjectModal() {
-            document.getElementById('project-modal').classList.add('hidden');
-            document.body.style.overflow = 'auto'; // Rétablir le scroll
-        }
-
-        // SKELETON LOADERS HTML
-        function getSkeletonHTML() {
-            return `
-            <div class="animate-pulse bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-800 rounded-xl p-6 h-full flex flex-col">
-                <div class="h-6 bg-slate-200 dark:bg-slate-700 rounded w-3/4 mb-4"></div>
-                <div class="h-4 bg-slate-200 dark:bg-slate-700 rounded w-full mb-2"></div>
-                <div class="h-4 bg-slate-200 dark:bg-slate-700 rounded w-5/6 mb-6"></div>
-                <div class="mt-auto flex gap-2">
-                    <div class="h-6 w-16 bg-slate-200 dark:bg-slate-700 rounded"></div>
-                </div>
-            </div>`;
-        }
-
-        // --- 0. DARK MODE TOGGLE ---
-        var themeToggleBtn = document.getElementById('theme-toggle');
-        var darkIcon = document.getElementById('theme-toggle-dark-icon');
-        var lightIcon = document.getElementById('theme-toggle-light-icon');
-
-        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            lightIcon.classList.remove('hidden');
-        } else {
-            darkIcon.classList.remove('hidden');
-        }
-
-        themeToggleBtn.addEventListener('click', function () {
-            darkIcon.classList.toggle('hidden');
-            lightIcon.classList.toggle('hidden');
-
-            if (localStorage.getItem('color-theme')) {
-                if (localStorage.getItem('color-theme') === 'light') {
-                    document.documentElement.classList.add('dark');
-                    localStorage.setItem('color-theme', 'dark');
-                } else {
-                    document.documentElement.classList.remove('dark');
-                    localStorage.setItem('color-theme', 'light');
-                }
-            } else {
-                if (document.documentElement.classList.contains('dark')) {
-                    document.documentElement.classList.remove('dark');
-                    localStorage.setItem('color-theme', 'light');
-                } else {
-                    document.documentElement.classList.add('dark');
-                    localStorage.setItem('color-theme', 'dark');
-                }
-            }
-        });
-
-
-        // --- 1. MENU MOBILE (DRAWER) ---
-        function toggleMenu() {
-            const menu = document.getElementById('mobile-menu');
-            const overlay = document.getElementById('mobile-overlay');
-
-            if (menu.classList.contains('translate-x-full')) {
-                menu.classList.remove('translate-x-full');
-                overlay.classList.remove('hidden');
-                setTimeout(() => overlay.classList.remove('opacity-0'), 10);
-            } else {
-                menu.classList.add('translate-x-full');
-                overlay.classList.add('opacity-0');
-                setTimeout(() => overlay.classList.add('hidden'), 300);
-            }
-        }
-
-        // --- 2. GESTION DES PDFS ---
-        function openPdf(pdfUrl) {
-            const modal = document.getElementById('pdf-modal');
-            const frame = document.getElementById('pdf-frame');
-            frame.src = pdfUrl;
-            modal.classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closePdf() {
-            const modal = document.getElementById('pdf-modal');
-            const frame = document.getElementById('pdf-frame');
-            modal.classList.add('hidden');
-            frame.src = '';
-            document.body.style.overflow = 'auto';
-        }
-
-        // --- 3. SCROLL REVEAL & BACK TO TOP & SPY ---
-        const revealElements = document.querySelectorAll('.reveal');
-        const backToTopBtn = document.getElementById('back-to-top');
-        const sections = document.querySelectorAll('section');
-        const navLinks = document.querySelectorAll('.nav-link');
-
-        window.addEventListener('scroll', () => {
-            revealElements.forEach(el => {
-                const elementTop = el.getBoundingClientRect().top;
-                const windowHeight = window.innerHeight;
-                if (elementTop < windowHeight - 100) el.classList.add('active');
-            });
-
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.remove('translate-y-20', 'opacity-0');
-            } else {
-                backToTopBtn.classList.add('translate-y-20', 'opacity-0');
-            }
-
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                if (scrollY >= sectionTop - 200) current = section.getAttribute('id');
-            });
-
-            navLinks.forEach(link => {
-                link.classList.remove('text-brand-blue', 'bg-blue-50', 'dark:bg-slate-800');
-                if (link.getAttribute('href').includes(current)) {
-                    link.classList.add('text-brand-blue', 'bg-blue-50', 'dark:bg-slate-800');
-                }
-            });
-        });
-
-        // --- 4. GITHUB API ---
-        const githubUsername = 'GOLBIN-Dorian'; // <-- REMPLACE ICI
-        const container = document.getElementById('projects-container');
-        const profileLink = document.getElementById('github-profile-link');
-        profileLink.href = `https://github.com/${githubUsername}`;
-
-        // Injecter squelettes
-        container.innerHTML = getSkeletonHTML().repeat(3);
-
-        const getLanguageColor = (lang) => {
-            const colors = {
-                'Python': 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/30 border-blue-100 dark:border-blue-800',
-                'PHP': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/30 border-indigo-100 dark:border-indigo-800',
-                'JavaScript': 'text-yellow-600 dark:text-yellow-400 bg-yellow-50 dark:bg-yellow-900/30 border-yellow-100 dark:border-yellow-800',
-                'HTML': 'text-orange-600 dark:text-orange-400 bg-orange-50 dark:bg-orange-900/30 border-orange-100 dark:border-orange-800',
-                'CSS': 'text-sky-600 dark:text-sky-400 bg-sky-50 dark:bg-sky-900/30 border-sky-100 dark:border-sky-800',
-                'Vue': 'text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 border-green-100 dark:border-green-800'
-            };
-            return colors[lang] || 'text-slate-600 dark:text-slate-400 bg-slate-50 dark:bg-slate-700 border-slate-100 dark:border-slate-600';
-        }
-
-        fetch(`https://api.github.com/users/${githubUsername}/repos?sort=updated&direction=desc`)
-            .then(response => response.json())
-            .then(data => {
-                container.innerHTML = ''; // Enlever squelettes
-                if (data.message === "Not Found") return;
-
-                const myRepos = data.filter(repo => !repo.fork && repo.name !== 'GOLBIN-Dorian').slice(0, 5);
-                if (myRepos.length === 0) return;
-
-                myRepos.forEach(repo => {
-                    const card = document.createElement('div');
-                    card.className = 'flex flex-col bg-white dark:bg-dark-card border border-slate-100 dark:border-slate-800 rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full cursor-pointer group';
-                    card.onclick = () => openProjectModal(repo); // Click ouvre la modale
-
-                    const langClass = getLanguageColor(repo.language);
-                    const langBadge = repo.language ? `<span class="${langClass} tech-badge">${repo.language}</span>` : '';
-
-                    card.innerHTML = `
-                        <div class="p-6 flex-1 flex flex-col">
-                            <div class="flex justify-between items-start mb-4">
-                                <h3 class="font-bold text-lg text-brand-dark dark:text-white truncate pr-2 group-hover:text-brand-blue">${repo.name.replace(/[-_]/g, ' ')}</h3>
-                                <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
-                            </div>
-                            <p class="text-slate-600 dark:text-slate-300 text-sm mb-6 flex-1 line-clamp-3">${repo.description || 'Projet personnel disponible sur GitHub.'}</p>
-                            <div class="flex items-center justify-between mt-auto pt-4 border-t border-slate-50 dark:border-slate-800">
-                                ${langBadge}
-                                <div class="flex items-center text-xs text-slate-400 dark:text-slate-500">
-                                    <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
-                                    ${repo.stargazers_count}
-                                </div>
-                            </div>
-                        </div>`;
-                    container.appendChild(card);
-                });
-            });
-
-        // --- 5. GESTION DES FLUX RSS ---
-        const feedContainer = document.getElementById('rss-feed-container');
-        // Injecter squelettes RSS
-        feedContainer.innerHTML = `
-            <div class="animate-pulse space-y-4">
-                <div class="h-16 bg-slate-100 dark:bg-slate-800 rounded-lg"></div>
-                <div class="h-16 bg-slate-100 dark:bg-slate-800 rounded-lg"></div>
-                <div class="h-16 bg-slate-100 dark:bg-slate-800 rounded-lg"></div>
-            </div>`;
-
-        const rssUrls = [
-            'https://news.humancoders.com/feed',
-            'https://www.cert.ssi.gouv.fr/feed/',
-            'https://www.developpez.com/index/rss'
-        ];
-
-        const getRecentDate = (d) => { const x = new Date(); x.setDate(x.getDate() - d); return x; };
-
-        const backupData = [
-            { title: "Optimisation SQL : Les bonnes pratiques", link: "https://sql.developpez.com/", pubDate: getRecentDate(0), sourceName: "Developpez.com" },
-            { title: "Alerte de sécurité critique sur les serveurs web", link: "https://www.cert.ssi.gouv.fr/", pubDate: getRecentDate(0), sourceName: "CERT-FR" },
-            { title: "Nouveautés de PHP 8.4 pour les développeurs", link: "https://news.humancoders.com/", pubDate: getRecentDate(1), sourceName: "Human Coders" },
-            { title: "Architecture logicielle : Le pattern MVC expliqué", link: "https://www.developpez.com/", pubDate: getRecentDate(1), sourceName: "Developpez.com" },
-            { title: "Sécuriser une API REST avec JWT", link: "https://news.humancoders.com/", pubDate: getRecentDate(2), sourceName: "Human Coders" },
-            { title: "Rapport sur les menaces rançongiciels en France", link: "https://www.cert.ssi.gouv.fr/", pubDate: getRecentDate(2), sourceName: "CERT-FR" }
-        ];
-
-        const fetchFeed = (url) => fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`).then(res => res.ok ? res.json() : null);
-
-        async function loadRSS() {
-            try {
-                const responses = await Promise.all(rssUrls.map(url => fetchFeed(url).catch(() => null)));
-                let allItems = [];
-                let hasRealData = false;
-
-                const itemsBySource = responses.map((data, index) => {
-                    let name = 'Tech';
-                    if (index === 0) name = 'Human Coders';
-                    if (index === 1) name = 'CERT-FR';
-                    if (index === 2) name = 'Developpez.com';
-                    if (data && data.status === 'ok' && data.items) hasRealData = true;
-                    return { name, items: (data && data.items) ? data.items : [] };
-                });
-
-                if (!hasRealData) throw new Error();
-
-                let count = 0, i = 0, activeSources = itemsBySource.length;
-                const seen = new Set();
-
-                while (count < 9 && activeSources > 0) {
-                    activeSources = 0;
-                    for (let s = 0; s < itemsBySource.length; s++) {
-                        const src = itemsBySource[s];
-                        if (i < src.items.length) {
-                            activeSources++;
-                            const item = src.items[i];
-                            if (!item.title.toLowerCase().includes('python') && !seen.has(item.title)) {
-                                seen.add(item.title);
-                                allItems.push({ ...item, pubDate: new Date(item.pubDate), sourceName: src.name });
-                                count++;
-                                if (count >= 9) break;
-                            }
-                        }
-                    }
-                    if (count >= 9) break;
-                    i++;
-                }
-                renderFeed(allItems);
-            } catch (e) {
-                renderFeed(backupData);
-            }
-        }
-
-        function renderFeed(items) {
-            feedContainer.innerHTML = '';
-            items.forEach(item => {
-                const dateStr = item.pubDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
-                let color = 'bg-gray-100 text-gray-600 dark:bg-slate-700 dark:text-slate-300';
-                if (item.sourceName === 'CERT-FR') color = 'bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400';
-                if (item.sourceName === 'Human Coders') color = 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400';
-                if (item.sourceName === 'Developpez.com') color = 'bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400';
-
-                feedContainer.innerHTML += `
-                    <a href="${item.link}" target="_blank" class="block p-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 border border-transparent hover:border-slate-200 dark:hover:border-slate-600 transition group">
-                        <div class="flex justify-between items-start">
-                            <div class="flex-1">
-                                <h4 class="text-sm font-semibold text-brand-dark dark:text-white group-hover:text-brand-blue dark:group-hover:text-brand-blue line-clamp-2 leading-snug">${item.title}</h4>
-                                <div class="flex items-center mt-2 space-x-2">
-                                    <span class="text-[10px] ${color} px-1.5 py-0.5 rounded border border-transparent opacity-80">${item.sourceName}</span>
-                                    <span class="text-xs text-slate-400 dark:text-slate-500">${dateStr}</span>
-                                </div>
-                            </div>
-                            <svg class="w-4 h-4 text-slate-300 dark:text-slate-600 group-hover:text-brand-blue dark:group-hover:text-brand-blue mt-1 ml-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </div>
-                    </a>`;
-            });
-        }
-        loadRSS();
-    </script>
-</body>
-
-</html><!DOCTYPE html>
-<html lang="fr" class="scroll-smooth">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Dorian GOLBIN | Développeur Web PHP/JS</title>
-    <meta name="description"
-        content="Portfolio de Dorian Golbin, étudiant en BTS SIO SLAM. Développeur PHP, JS, SQL. Permis B.">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    fontFamily: { sans: ['Poppins', 'sans-serif'] },
-                    colors: {
-                        'brand-dark': '#0f172a',
-                        'brand-blue': '#3b82f6',
-                        'brand-accent': '#0ea5e9',
-                        'dark-bg': '#0B1121',
-                        'dark-card': '#151F32',
-                    },
-                    animation: {
-                        'fade-in': 'fadeIn 1s ease-out',
-                        // Animation pour les Skeletons
-                        'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                    },
-                    keyframes: {
-                        fadeIn: {
-                            '0%': { opacity: '0', transform: 'translateY(10px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' },
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-
-    <script>
-        // Initialisation immédiate du thème pour éviter le flash blanc
-        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark');
-        } else {
-            document.documentElement.classList.remove('dark')
-        }
-    </script>
-
-    <style>
-        /* Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: #f1f5f9;
-        }
-
-        .dark ::-webkit-scrollbar-track {
-            background: #0B1121;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #cbd5e1;
-            border-radius: 4px;
-        }
-
-        .dark ::-webkit-scrollbar-thumb {
-            background: #334155;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: #94a3b8;
-        }
-
-        .dark ::-webkit-scrollbar-thumb:hover {
-            background: #475569;
-        }
-
-        .tech-badge {
-            @apply text-xs font-medium px-2.5 py-0.5 rounded border;
-        }
-
-        /* Scrollbar du flux RSS */
-        .rss-scroll::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .rss-scroll::-webkit-scrollbar-track {
-            background: #f8fafc;
-        }
-
-        .dark .rss-scroll::-webkit-scrollbar-track {
-            background: #1e293b;
-        }
-
-        .rss-scroll::-webkit-scrollbar-thumb {
-            background: #cbd5e1;
-            border-radius: 10px;
-        }
-
-        .dark .rss-scroll::-webkit-scrollbar-thumb {
-            background: #475569;
-        }
-
-        .timeline-border {
-            border-left: 2px solid #cbd5e1;
-        }
-
-        .dark .timeline-border {
-            border-left: 2px solid #334155;
-        }
-
-        /* Animation d'apparition (Scroll Reveal) */
-        .reveal {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.8s ease-out;
-        }
-
-        .reveal.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Curseur machine à écrire */
-        .typewriter-cursor {
-            display: inline-block;
-            width: 3px;
-            background-color: #3b82f6;
-            animation: blink 1s step-end infinite;
-        }
-
-        @keyframes blink {
-            50% {
-                opacity: 0;
-            }
-        }
-
-        /* Styles pour le Markdown (README) dans la modale */
-        .markdown-body h1 {
-            font-size: 1.5em;
-            font-weight: bold;
-            margin: 0.5em 0;
-        }
-
-        .markdown-body h2 {
-            font-size: 1.3em;
-            font-weight: bold;
-            margin: 0.5em 0;
-        }
-
-        .markdown-body p {
-            margin-bottom: 0.8em;
-            line-height: 1.6;
-        }
-
-        .markdown-body ul {
-            list-style-type: disc;
-            padding-left: 1.5em;
-            margin-bottom: 0.8em;
-        }
-
-        .markdown-body code {
-            background: rgba(0, 0, 0, 0.1);
-            padding: 0.2em 0.4em;
-            rounded: 3px;
-            font-family: monospace;
-        }
-
-        .dark .markdown-body code {
-            background: rgba(255, 255, 255, 0.1);
-        }
-
-        .markdown-body pre {
-            background: #f1f5f9;
-            padding: 1em;
-            border-radius: 8px;
-            overflow-x: auto;
-            margin-bottom: 1em;
-        }
-
-        .dark .markdown-body pre {
-            background: #0f172a;
-        }
-
-        .markdown-body img {
-            max-width: 100%;
-            border-radius: 8px;
-            margin: 1em 0;
-        }
-
-        .markdown-body a {
-            color: #3b82f6;
-            text-decoration: underline;
-        }
-    </style>
-</head>
-
-<body
-    class="bg-slate-50 text-slate-800 dark:bg-dark-bg dark:text-slate-200 antialiased selection:bg-brand-blue selection:text-white transition-colors duration-300">
-
-    <header
-        class="fixed w-full top-0 z-50 bg-white/90 dark:bg-dark-bg/90 backdrop-blur-md shadow-sm border-b border-slate-100 dark:border-slate-800 h-16 transition-all duration-300">
-        <div class="container mx-auto px-6 h-full flex justify-between items-center">
-
-            <a href="#" class="text-xl font-bold text-brand-dark dark:text-white tracking-tight z-50">
-                Dorian<span class="text-brand-blue">.DEV</span>
-            </a>
-
-            <div class="flex items-center gap-4">
-                <button id="theme-toggle" type="button"
-                    class="text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg text-sm p-2.5 z-50 transition-colors cursor-pointer">
-                    <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-                    </svg>
-                    <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd"
-                            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.707.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 100 2h1z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-
-                <button onclick="toggleMenu()"
-                    class="text-slate-600 dark:text-slate-300 focus:outline-none p-2 z-50 relative hover:text-brand-blue dark:hover:text-brand-blue transition-colors group cursor-pointer">
-                    <div class="space-y-1.5 pointer-events-none">
-                        <span class="block w-8 h-0.5 bg-current transition-all group-hover:w-6 ml-auto"></span>
-                        <span class="block w-8 h-0.5 bg-current transition-all"></span>
-                        <span class="block w-8 h-0.5 bg-current transition-all group-hover:w-4 ml-auto"></span>
-                    </div>
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <div id="mobile-overlay" onclick="toggleMenu()"
-        class="fixed inset-0 bg-brand-dark/60 z-[60] hidden opacity-0 transition-opacity duration-300 backdrop-blur-sm">
-    </div>
-
-    <div id="mobile-menu"
-        class="fixed top-0 right-0 h-full w-80 bg-white dark:bg-dark-card shadow-2xl z-[70] transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col border-l border-slate-100 dark:border-slate-800">
-
-        <div
-            class="p-6 border-b border-slate-100 dark:border-slate-800 flex justify-between items-center bg-slate-50/50 dark:bg-slate-800/50">
-            <span class="text-lg font-bold text-brand-dark dark:text-white">Navigation</span>
-            <button onclick="toggleMenu()"
-                class="text-slate-400 dark:text-slate-500 hover:text-red-500 dark:hover:text-red-400 transition-colors p-2 rounded-full hover:bg-red-50 dark:hover:bg-red-900/20 cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
-        </div>
-
-        <nav class="flex-1 overflow-y-auto py-6 px-6 space-y-2">
-            <a href="#about" onclick="toggleMenu()"
-                class="nav-link flex items-center justify-between p-3 rounded-xl text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-blue hover:bg-blue-50 dark:hover:bg-slate-800 transition-all font-medium group"><span>À
-                    propos</span></a>
-            <a href="#skills" onclick="toggleMenu()"
-                class="nav-link flex items-center justify-between p-3 rounded-xl text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-blue hover:bg-blue-50 dark:hover:bg-slate-800 transition-all font-medium group"><span>Compétences</span></a>
-            <a href="#experience" onclick="toggleMenu()"
-                class="nav-link flex items-center justify-between p-3 rounded-xl text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-blue hover:bg-blue-50 dark:hover:bg-slate-800 transition-all font-medium group"><span>Expériences</span></a>
-            <a href="#education" onclick="toggleMenu()"
-                class="nav-link flex items-center justify-between p-3 rounded-xl text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-blue hover:bg-blue-50 dark:hover:bg-slate-800 transition-all font-medium group"><span>Formations</span></a>
-            <a href="#projects" onclick="toggleMenu()"
-                class="nav-link flex items-center justify-between p-3 rounded-xl text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-blue hover:bg-blue-50 dark:hover:bg-slate-800 transition-all font-medium group"><span>Projets</span></a>
-            <a href="#veille" onclick="toggleMenu()"
-                class="nav-link flex items-center justify-between p-3 rounded-xl text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-blue hover:bg-blue-50 dark:hover:bg-slate-800 transition-all font-medium group"><span>Veille
-                    Tech</span></a>
-            <a href="#passions" onclick="toggleMenu()"
-                class="nav-link flex items-center justify-between p-3 rounded-xl text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-blue hover:bg-blue-50 dark:hover:bg-slate-800 transition-all font-medium group"><span>Passions</span></a>
-        </nav>
-
-        <div class="p-6 border-t border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50">
-            <a href="#contact" onclick="toggleMenu()"
-                class="block w-full py-3.5 bg-brand-blue text-white text-center rounded-xl font-bold shadow-lg shadow-blue-500/20 active:scale-95 transition-all hover:bg-blue-600 hover:-translate-y-0.5">Me
-                contacter</a>
-            <div class="mt-6 flex justify-center space-x-4">
-                <a href="#" class="text-slate-400 hover:text-brand-dark transition-colors"><svg class="w-5 h-5"
-                        fill="currentColor" viewBox="0 0 24 24">
-                        <path
-                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                    </svg></a>
-                <a id="nav-github-link" href="#" target="_blank"
-                    class="text-slate-400 hover:text-brand-dark transition-colors"><svg class="w-5 h-5"
-                        fill="currentColor" viewBox="0 0 24 24">
-                        <path
-                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                    </svg></a>
-            </div>
-            <div class="mt-4 text-center text-xs text-slate-400 dark:text-slate-500">&copy; 2026 Dorian Golbin</div>
-        </div>
-    </div>
 
     <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
         class="fixed bottom-8 right-8 bg-brand-blue hover:bg-blue-600 text-white p-3 rounded-full shadow-lg transition-all transform translate-y-20 opacity-0 z-40">
@@ -1600,595 +893,6 @@
         </svg>
     </button>
 
-    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden dark:bg-dark-bg">
-        <div
-            class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-brand-blue/10 dark:bg-brand-blue/5 rounded-full blur-3xl">
-        </div>
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="max-w-4xl mx-auto text-center animate-fade-in">
-
-                <div
-                    class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800 text-brand-blue text-xs font-bold uppercase tracking-wide mb-8">
-                    <span class="relative flex h-2 w-2">
-                        <span
-                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-                        <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-blue"></span>
-                    </span>
-                    Disponible pour Alternance / Stage
-                </div>
-
-                <h1
-                    class="text-5xl lg:text-7xl font-bold text-brand-dark dark:text-white mb-6 tracking-tight leading-tight">
-                    Développeur Web & <br>
-                    <span id="typewriter-text"
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-accent">Logiciel</span><span
-                        class="typewriter-cursor">&nbsp;</span>
-                </h1>
-
-                <p class="text-lg text-slate-600 dark:text-slate-400 mb-4 max-w-2xl mx-auto leading-relaxed">
-                    Étudiant en BTS SIO SLAM. Je conçois des solutions techniques avec <strong>PHP, JavaScript et
-                        SQL</strong>. Passionné par l'optimisation et la cybersécurité.
-                </p>
-
-                <div
-                    class="mb-10 flex items-center justify-center gap-2 text-slate-500 dark:text-slate-400 text-sm font-medium">
-                    <svg class="w-5 h-5 text-green-600 dark:text-green-500" fill="none" stroke="currentColor"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M5 18h14v-6a2 2 0 00-2-2h-1l-2-6H8l-2 6H5a2 2 0 00-2 2v6zm4-2a2 2 0 11-4 0 2 2 0 014 0zm10 0a2 2 0 11-4 0 2 2 0 014 0z">
-                        </path>
-                    </svg>
-                    <span>Permis B & Véhicule Personnel</span>
-                </div>
-
-                <div class="flex flex-col sm:flex-row justify-center gap-4">
-                    <a href="#projects"
-                        class="px-8 py-3.5 bg-brand-blue hover:bg-blue-600 text-white font-semibold rounded-lg shadow-xl shadow-blue-500/20 transition-all transform hover:-translate-y-1">
-                        Voir mes réalisations
-                    </a>
-                    <a href="CV_GOLBIN_Dorian.pdf" target="_blank"
-                        class="px-8 py-3.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-blue hover:border-brand-blue font-semibold rounded-lg transition-all flex items-center justify-center gap-2 group">
-                        <svg class="w-5 h-5 group-hover:animate-bounce" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-                        </svg>
-                        Télécharger mon CV
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about"
-        class="py-20 bg-white dark:bg-slate-900 border-y border-slate-100 dark:border-slate-800/50 transition-colors duration-300">
-        <div class="container mx-auto px-6 reveal">
-            <div class="flex flex-col md:flex-row items-center gap-16">
-                <div class="w-full md:w-5/12 relative group">
-                    <div
-                        class="absolute inset-0 bg-brand-blue rounded-2xl rotate-3 opacity-20 group-hover:rotate-6 transition-transform">
-                    </div>
-                    <img src="https://placehold.co/600x600/f1f5f9/334155?text=Dorian+Golbin" alt="Dorian Golbin"
-                        class="relative rounded-2xl shadow-lg w-full object-cover aspect-square">
-                </div>
-                <div class="w-full md:w-7/12">
-                    <h2 class="text-3xl font-bold text-brand-dark dark:text-white mb-6">Un profil technique,<br>de <span
-                            class="text-brand-blue">l'Hardware au Software</span>.</h2>
-                    <p class="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
-                        Moi c'est <strong>Dorian Golbin</strong>, <strong>21 ans</strong>. Si je devais me résumer, je
-                        dirais que je suis un technicien avec une âme de créatif. J'ai commencé par mettre les mains
-                        dans le cambouis (hardware et réseaux) avant de me passionner pour la logique du code. Quand je
-                        ne suis pas devant mon écran à développer, je suis souvent en train de dessiner. J'apporte cette
-                        même minutie et ce sens du détail dans tous mes projets informatiques.
-                    </p>
-
-                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                        <div
-                            class="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-700 col-span-2 md:col-span-1">
-                            <div class="text-3xl font-bold text-green-600 dark:text-green-500 mb-1">
-                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M5 18h14v-6a2 2 0 00-2-2h-1l-2-6H8l-2 6H5a2 2 0 00-2 2v6zm4-2a2 2 0 11-4 0 2 2 0 014 0zm10 0a2 2 0 11-4 0 2 2 0 014 0z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="text-sm text-slate-700 dark:text-slate-300 font-bold mt-1">Permis B</div>
-                            <div class="text-xs text-slate-500 dark:text-slate-400">Véhiculé</div>
-                        </div>
-                        <div
-                            class="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-700">
-                            <div class="text-3xl font-bold text-brand-blue mb-1">ANSSI</div>
-                            <div class="text-xs text-slate-500 dark:text-slate-400">Certifié SecNum</div>
-                        </div>
-                        <div
-                            class="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-700">
-                            <div class="text-3xl font-bold text-brand-accent mb-1">B1</div>
-                            <div class="text-xs text-slate-500 dark:text-slate-400">Anglais Technique</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="py-20 bg-slate-50 dark:bg-dark-bg transition-colors duration-300">
-        <div class="container mx-auto px-6 reveal">
-            <div class="text-center max-w-2xl mx-auto mb-16">
-                <h2 class="text-3xl font-bold text-brand-dark dark:text-white mb-4">Stack Technique</h2>
-                <p class="text-slate-500 dark:text-slate-400">Une boîte à outils polyvalente pour le web et
-                    l'applicatif.</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div
-                    class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 hover:shadow-md transition-all">
-                    <h3 class="text-xl font-bold text-brand-dark dark:text-white mb-4">Back-End & Data</h3>
-                    <ul class="space-y-3 text-slate-600 dark:text-slate-300">
-                        <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-3"></span>PHP
-                            (MVC / POO)</li>
-                        <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-3"></span>MySQL /
-                            SQL Server</li>
-                        <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-3"></span>API
-                            REST (JSON)</li>
-                        <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-3"></span>Merise
-                            / UML</li>
-                    </ul>
-                </div>
-                <div
-                    class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 hover:shadow-md transition-all">
-                    <h3 class="text-xl font-bold text-brand-dark dark:text-white mb-4">Front-End</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span
-                            class="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded-lg text-sm">HTML5
-                            / CSS3</span>
-                        <span
-                            class="px-3 py-1 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-400 rounded-lg text-sm border border-teal-100 dark:border-teal-800">Tailwind</span>
-                        <span
-                            class="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded-lg text-sm">JS</span>
-                        <span
-                            class="px-3 py-1 bg-yellow-50 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400 rounded-lg text-sm border border-yellow-100 dark:border-yellow-800">ExpressJS</span>
-                    </div>
-                </div>
-                <div
-                    class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 hover:shadow-md transition-all">
-                    <h3 class="text-xl font-bold text-brand-dark dark:text-white mb-4">Outils & Environnement</h3>
-                    <ul class="space-y-3 text-slate-600 dark:text-slate-300">
-                        <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-purple-500 mr-3"></span>Git &
-                            GitHub</li>
-                        <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-purple-500 mr-3"></span>VS
-                            Code</li>
-                        <li class="flex items-center"><span
-                                class="w-2 h-2 rounded-full bg-purple-500 mr-3"></span>Docker</li>
-                        <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-purple-500 mr-3"></span>Linux
-                            (Basics)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-20 bg-white dark:bg-slate-900 border-y border-slate-100 dark:border-slate-800 transition-colors">
-        <div class="container mx-auto px-6 reveal">
-            <h2 class="text-3xl font-bold text-brand-dark dark:text-white mb-12 text-center">Savoir-Être</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <div class="text-center p-6 bg-slate-50 dark:bg-dark-card rounded-xl hover:shadow-lg transition">
-                    <div class="text-4xl mb-3">🔍</div>
-                    <h3 class="font-bold text-brand-dark dark:text-white">Curiosité</h3>
-                    <p class="text-xs text-slate-500 mt-2">Veille constante</p>
-                </div>
-                <div class="text-center p-6 bg-slate-50 dark:bg-dark-card rounded-xl hover:shadow-lg transition">
-                    <div class="text-4xl mb-3">🤝</div>
-                    <h3 class="font-bold text-brand-dark dark:text-white">Esprit d'équipe</h3>
-                    <p class="text-xs text-slate-500 mt-2">Communication</p>
-                </div>
-                <div class="text-center p-6 bg-slate-50 dark:bg-dark-card rounded-xl hover:shadow-lg transition">
-                    <div class="text-4xl mb-3">🧩</div>
-                    <h3 class="font-bold text-brand-dark dark:text-white">Résolution</h3>
-                    <p class="text-xs text-slate-500 mt-2">Logique & Analyse</p>
-                </div>
-                <div class="text-center p-6 bg-slate-50 dark:bg-dark-card rounded-xl hover:shadow-lg transition">
-                    <div class="text-4xl mb-3">⚡</div>
-                    <h3 class="font-bold text-brand-dark dark:text-white">Autonomie</h3>
-                    <p class="text-xs text-slate-500 mt-2">Proactif</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience"
-        class="py-20 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
-        <div class="container mx-auto px-6 max-w-5xl reveal">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-brand-dark dark:text-white">Expériences Professionnelles</h2>
-            </div>
-
-            <div
-                class="relative border-l-2 border-slate-300 dark:border-slate-700 ml-4 md:ml-6 md:pl-0 space-y-16 timeline-border">
-                <div class="relative pl-8 md:pl-0">
-                    <div
-                        class="absolute -left-[9px] -top-1.5 w-5 h-5 bg-brand-blue rounded-full border-4 border-slate-50 dark:border-slate-900 shadow-sm z-10">
-                    </div>
-                    <div class="md:w-1/2 md:text-right md:pr-12 md:absolute md:left-0">
-                        <span class="text-xs font-bold tracking-wider text-brand-blue uppercase">2025 (5
-                            semaines)</span>
-                        <h3 class="text-xl font-bold text-brand-dark dark:text-white mt-1">Stagiaire Développeur</h3>
-                        <p class="text-sm text-slate-500 dark:text-slate-400 font-medium mb-3">Parisot Industrie,
-                            Saint-Loup-sur-Semouse</p>
-                    </div>
-                    <div class="md:w-1/2 md:ml-auto md:pl-12">
-                        <div
-                            class="text-slate-600 dark:text-slate-300 text-sm bg-white dark:bg-slate-800 p-6 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700">
-                            Développement d'une <strong>application de bureau</strong> pour optimiser le tri des codes
-                            commandes.<br>
-                            Technologies : <span class="font-semibold text-brand-blue">Python, Tkinter, SQL
-                                Server</span>.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="relative pl-8 md:pl-0">
-                    <div
-                        class="absolute -left-[9px] -top-1.5 w-5 h-5 bg-slate-400 dark:bg-slate-600 rounded-full border-4 border-slate-50 dark:border-slate-900 shadow-sm z-10">
-                    </div>
-                    <div class="md:w-1/2 md:text-right md:pr-12 md:absolute md:left-0">
-                        <span class="text-xs font-bold tracking-wider text-slate-500 dark:text-slate-400 uppercase">Été
-                            2024</span>
-                        <h3 class="text-xl font-bold text-brand-dark dark:text-white mt-1">Préparateur de Commande</h3>
-                        <p class="text-sm text-slate-500 dark:text-slate-400 font-medium mb-3">Parisot Industrie</p>
-                    </div>
-                    <div class="md:w-1/2 md:ml-auto md:pl-12">
-                        <div
-                            class="text-slate-600 dark:text-slate-300 text-sm bg-white dark:bg-slate-800 p-6 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700">
-                            Travail en équipe, respect des délais et rigueur logistique au sein d'une usine de meubles
-                            en kit.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="relative pl-8 md:pl-0">
-                    <div
-                        class="absolute -left-[9px] -top-1.5 w-5 h-5 bg-slate-400 dark:bg-slate-600 rounded-full border-4 border-slate-50 dark:border-slate-900 shadow-sm z-10">
-                    </div>
-                    <div class="md:w-1/2 md:text-right md:pr-12 md:absolute md:left-0">
-                        <span class="text-xs font-bold tracking-wider text-slate-500 dark:text-slate-400 uppercase">2022
-                            - 2024 (Stages)</span>
-                        <h3 class="text-xl font-bold text-brand-dark dark:text-white mt-1">Stagiaire Technicien Sécurité
-                        </h3>
-                        <p class="text-sm text-slate-500 dark:text-slate-400 font-medium mb-3">Antenne Pepiot</p>
-                    </div>
-                    <div class="md:w-1/2 md:ml-auto md:pl-12">
-                        <div
-                            class="text-slate-600 dark:text-slate-300 text-sm bg-white dark:bg-slate-800 p-6 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700">
-                            Installation et maintenance de systèmes d'alarme, vidéosurveillance et interphonie.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="education" class="py-20 bg-white dark:bg-slate-900 transition-colors duration-300">
-        <div class="container mx-auto px-6 max-w-5xl reveal">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-brand-dark dark:text-white">Formation & Diplômes</h2>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div
-                    class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-brand-blue/30 transition-colors">
-                    <span class="text-xs font-bold text-brand-blue uppercase tracking-wider">En cours (2024-2026)</span>
-                    <h3 class="text-xl font-bold text-brand-dark dark:text-white mt-1">BTS SIO option SLAM</h3>
-                    <p class="text-sm font-medium text-slate-600 dark:text-slate-300 mb-2">Lycée Louis Pergaud, Besançon
-                    </p>
-                    <p class="text-slate-500 dark:text-slate-400 text-sm">Services Informatiques aux Organisations.</p>
-                </div>
-                <div
-                    class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-purple-500/30 transition-colors relative group">
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <span
-                                class="text-xs font-bold text-purple-600 dark:text-purple-400 uppercase tracking-wider">2025</span>
-                            <h3 class="text-xl font-bold text-brand-dark dark:text-white mt-1">MOOC SecNumAcadémie</h3>
-                            <p class="text-sm font-medium text-slate-600 dark:text-slate-300 mb-2">ANSSI</p>
-                        </div>
-                        <svg class="w-8 h-8 text-purple-200 dark:text-purple-900 group-hover:text-purple-500 dark:group-hover:text-purple-400 transition-colors"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
-                    </div>
-                    <button onclick="openPdf('mooc-anssi.pdf')"
-                        class="mt-4 inline-flex items-center text-sm font-semibold text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300 transition-colors cursor-pointer">
-                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
-                            </path>
-                        </svg>
-                        Voir l'attestation
-                    </button>
-                </div>
-                <div
-                    class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-indigo-500/30 transition-colors relative group">
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <span
-                                class="text-xs font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">2025</span>
-                            <h3 class="text-xl font-bold text-brand-dark dark:text-white mt-1">Atelier RGPD</h3>
-                            <p class="text-sm font-medium text-slate-600 dark:text-slate-300 mb-2">CNIL</p>
-                        </div>
-                        <svg class="w-8 h-8 text-indigo-200 dark:text-indigo-900 group-hover:text-indigo-500 dark:group-hover:text-indigo-400 transition-colors"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z">
-                            </path>
-                        </svg>
-                    </div>
-                    <button onclick="openPdf('mooc-cnil.pdf')"
-                        class="mt-4 inline-flex items-center text-sm font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors cursor-pointer">
-                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
-                            </path>
-                        </svg>
-                        Voir l'attestation
-                    </button>
-                </div>
-                <div
-                    class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-brand-blue/30 transition-colors">
-                    <span
-                        class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">2022-2024</span>
-                    <h3 class="text-xl font-bold text-brand-dark dark:text-white mt-1">Bac Pro SN (SSIHT)</h3>
-                    <p class="text-sm font-medium text-slate-600 dark:text-slate-300 mb-2">Lycée Luxembourg, Vesoul</p>
-                    <span
-                        class="inline-block bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-xs font-bold px-2 py-1 rounded">Mention
-                        Très Bien</span>
-                </div>
-                <div
-                    class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-brand-blue/30 transition-colors">
-                    <span
-                        class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">2019-2022</span>
-                    <h3 class="text-xl font-bold text-brand-dark dark:text-white mt-1">Cursus Scientifique (Niveau
-                        Terminale)</h3>
-                    <p class="text-sm font-medium text-slate-600 dark:text-slate-300 mb-2">Lycée Lumière,
-                        Luxeuil-les-bains</p>
-                    <p class="text-slate-500 dark:text-slate-400 text-sm">
-                        Spécialités <strong>Mathématiques, Sciences de l'Ingénieur</strong> et
-                        <strong>Physique-Chimie</strong>.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects"
-        class="py-20 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
-        <div class="container mx-auto px-6 reveal">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-12">
-                <div>
-                    <h2 class="text-3xl font-bold text-brand-dark dark:text-white">Mes Projets</h2>
-                    <p class="text-slate-500 dark:text-slate-400 mt-2">Expériences professionnelles et projets
-                        personnels.</p>
-                </div>
-                <a id="github-profile-link" href="#" target="_blank"
-                    class="hidden md:inline-flex items-center font-medium text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-blue transition">
-                    Mon GitHub <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                    </svg>
-                </a>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div
-                    class="flex flex-col bg-white dark:bg-slate-800 border-2 border-brand-blue/10 dark:border-brand-blue/5 rounded-xl overflow-hidden shadow-lg h-full relative group transition-all">
-                    <div
-                        class="absolute top-0 right-0 bg-brand-blue text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
-                        STAGE 2025</div>
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="font-bold text-lg text-brand-dark dark:text-white mb-2">Application Logistique</h3>
-                        <p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-4">Parisot Industrie</p>
-                        <p class="text-slate-600 dark:text-slate-300 text-sm mb-6 flex-1">
-                            Développement d'une application de bureau pour trier et gérer les codes lors des commandes.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mt-auto">
-                            <span
-                                class="tech-badge text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/30 border-blue-100 dark:border-blue-800">Python</span>
-                            <span
-                                class="tech-badge text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/30 border-blue-100 dark:border-blue-800">Tkinter</span>
-                            <span
-                                class="tech-badge text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-700 border-slate-100 dark:border-slate-600">SQL
-                                Server</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="projects-container" class="contents"></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="veille"
-        class="py-20 bg-white dark:bg-dark-card border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
-        <div class="container mx-auto px-6 max-w-6xl reveal">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-brand-dark dark:text-white">Veille Technologique</h2>
-                <p class="text-slate-500 dark:text-slate-400 mt-2">Ma routine pour rester à jour : Web, Sécurité et
-                    Données.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-
-                <div
-                    class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-2xl border-l-4 border-brand-blue shadow-sm flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-brand-dark dark:text-white mb-6 flex items-center">
-                            <svg class="w-6 h-6 mr-2 text-brand-blue" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                            </svg>
-                            Sujets de Prédilection
-                        </h3>
-                        <ul class="space-y-4">
-                            <li class="flex items-start">
-                                <span class="mt-1 w-2 h-2 rounded-full bg-brand-blue flex-shrink-0 mr-3"></span>
-                                <div>
-                                    <strong class="text-slate-800 dark:text-slate-200">Développement Web :</strong>
-                                    <p class="text-sm text-slate-600 dark:text-slate-400">Standards JS/PHP, frameworks
-                                        (Tailwind, Vue).</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="mt-1 w-2 h-2 rounded-full bg-brand-blue flex-shrink-0 mr-3"></span>
-                                <div>
-                                    <strong class="text-slate-800 dark:text-slate-200">Sécurité des Données :</strong>
-                                    <p class="text-sm text-slate-600 dark:text-slate-400">Bonnes pratiques de sécurité,
-                                        gestion des mots de passe, et protection des bases de données.</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="mt-1 w-2 h-2 rounded-full bg-brand-blue flex-shrink-0 mr-3"></span>
-                                <div>
-                                    <strong class="text-slate-800 dark:text-slate-200">Données :</strong>
-                                    <p class="text-sm text-slate-600 dark:text-slate-400">SGBD Relationnels,
-                                        optimisation SQL.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="mt-8 pt-6 border-t border-slate-200 dark:border-slate-700">
-                        <h4 class="text-sm font-bold text-slate-700 dark:text-slate-300 mb-3">Mes Outils de Veille :
-                        </h4>
-                        <div class="flex gap-3">
-                            <span
-                                class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded text-xs text-slate-600 dark:text-slate-300 font-medium">Feedly</span>
-                            <span
-                                class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded text-xs text-slate-600 dark:text-slate-300 font-medium">GitHub</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div
-                    class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-2xl border-l-4 border-brand-accent shadow-sm flex flex-col h-full">
-                    <h3
-                        class="text-xl font-bold text-brand-dark dark:text-white mb-6 flex items-center justify-between">
-                        <span class="flex items-center"><svg class="w-6 h-6 mr-2 text-brand-accent" fill="none"
-                                stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z">
-                                </path>
-                            </svg>
-                            Fil d'Actualités (Sources Multiples)</span>
-                        <span
-                            class="text-xs font-normal text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-700 px-2 py-1 rounded border dark:border-slate-600">Live</span>
-                    </h3>
-
-                    <div id="rss-feed-container" class="space-y-4 flex-1 overflow-y-auto max-h-[350px] pr-2 rss-scroll">
-                        <p class="text-sm text-slate-400 italic">Chargement des articles...</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="passions"
-        class="py-20 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
-        <div class="container mx-auto px-6 max-w-5xl reveal">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-brand-dark dark:text-white">Centres d'Intérêt</h2>
-                <p class="text-slate-500 dark:text-slate-400 mt-2">Ce qui m'anime en dehors du code.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-                <div
-                    class="bg-white dark:bg-dark-card p-8 rounded-2xl shadow-sm hover:shadow-md transition-all text-center group">
-                    <div
-                        class="w-16 h-16 mx-auto bg-red-50 dark:bg-red-900/20 rounded-full flex items-center justify-center text-red-500 dark:text-red-400 mb-6 group-hover:bg-red-500 group-hover:text-white transition-colors">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-lg font-bold text-brand-dark dark:text-white mb-3">Culture Japonaise</h3>
-                    <p class="text-sm text-slate-600 dark:text-slate-300">Passionné par l'histoire, la langue, les
-                        <strong>Mangas et les Animes</strong>.
-                    </p>
-                </div>
-
-                <div
-                    class="bg-white dark:bg-dark-card p-8 rounded-2xl shadow-sm hover:shadow-md transition-all text-center group">
-                    <div
-                        class="w-16 h-16 mx-auto bg-blue-50 dark:bg-blue-900/20 rounded-full flex items-center justify-center text-blue-500 dark:text-blue-400 mb-6 group-hover:bg-blue-500 group-hover:text-white transition-colors">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-lg font-bold text-brand-dark dark:text-white mb-3">Lecture</h3>
-                    <p class="text-sm text-slate-600 dark:text-slate-300">Amateur de <strong>Science-fiction,
-                            Fantastique et Thriller</strong>.</p>
-                </div>
-
-                <div
-                    class="bg-white dark:bg-dark-card p-8 rounded-2xl shadow-sm hover:shadow-md transition-all text-center group">
-                    <div
-                        class="w-16 h-16 mx-auto bg-slate-100 dark:bg-slate-700 rounded-full flex items-center justify-center text-slate-600 dark:text-slate-300 mb-6 group-hover:bg-slate-800 dark:group-hover:bg-slate-200 group-hover:text-white dark:group-hover:text-slate-800 transition-colors">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-lg font-bold text-brand-dark dark:text-white mb-3">Hardware & Gaming</h3>
-                    <p class="text-sm text-slate-600 dark:text-slate-300">Montage de PC, veille hardware et jeux vidéo.
-                    </p>
-                </div>
-
-                <div
-                    class="bg-white dark:bg-dark-card p-8 rounded-2xl shadow-sm hover:shadow-md transition-all text-center group">
-                    <div
-                        class="w-16 h-16 mx-auto bg-purple-50 dark:bg-purple-900/20 rounded-full flex items-center justify-center text-purple-500 dark:text-purple-400 mb-6 group-hover:bg-purple-500 group-hover:text-white transition-colors">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-lg font-bold text-brand-dark dark:text-white mb-3">Dessin</h3>
-                    <p class="text-sm text-slate-600 dark:text-slate-300">Je dessine à mes heures perdues. Un moyen
-                        d'évasion et de créativité.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact"
-        class="bg-brand-dark dark:bg-dark-bg text-white py-16 border-t border-slate-800 transition-colors duration-300">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-6">Travaillons ensemble</h2>
-            <p class="text-slate-400 mb-8 max-w-lg mx-auto">
-                Je suis à la recherche d'une opportunité en alternance ou stage.
-            </p>
-            <div class="flex justify-center gap-4">
-                <a href="mailto:golbindorian@gmail.com"
-                    class="inline-block bg-brand-blue hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full transition shadow-lg shadow-blue-900/50">Me
-                    contacter</a>
-                <a href="tel:0784413203"
-                    class="inline-block bg-slate-700 hover:bg-slate-600 dark:bg-slate-800 dark:hover:bg-slate-700 text-white font-bold py-3 px-8 rounded-full transition">07
-                    84 41 32 03</a>
-            </div>
-            <div class="mt-12 text-sm text-slate-500">&copy; 2026 Dorian Golbin.</div>
-        </div>
-    </footer>
-
     <div id="pdf-modal" class="fixed inset-0 z-[60] hidden" aria-labelledby="modal-title" role="dialog"
         aria-modal="true">
         <div class="fixed inset-0 bg-gray-900 bg-opacity-75 transition-opacity" onclick="closePdf()"></div>
@@ -2291,32 +995,28 @@
             `;
 
             document.getElementById('project-modal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden'; // Empêcher le scroll derrière
+            document.body.style.overflow = 'hidden';
 
-            // Récupérer le README depuis GitHub (Raw content)
             try {
-                // Essayer la branche main, puis master si échec
                 let readmeUrl = `https://raw.githubusercontent.com/${githubUsername}/${repo.name}/${repo.default_branch}/README.md`;
                 const response = await fetch(readmeUrl);
 
                 if (response.ok) {
                     const text = await response.text();
-                    // Convertir Markdown en HTML via marked.js
                     modalDesc.innerHTML = marked.parse(text);
                 } else {
                     throw new Error("Readme introuvable");
                 }
             } catch (e) {
-                // Fallback sur la description courte si pas de README
                 modalDesc.innerHTML = `<p>${repo.description || "Aucune description détaillée disponible pour ce projet."}</p>`;
             }
         }
         function closeProjectModal() {
             document.getElementById('project-modal').classList.add('hidden');
-            document.body.style.overflow = 'auto'; // Rétablir le scroll
+            document.body.style.overflow = 'auto';
         }
 
-        // SKELETON LOADERS HTML
+
         function getSkeletonHTML() {
             return `
             <div class="animate-pulse bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-800 rounded-xl p-6 h-full flex flex-col">
@@ -2329,7 +1029,7 @@
             </div>`;
         }
 
-        // --- 0. DARK MODE TOGGLE ---
+
         var themeToggleBtn = document.getElementById('theme-toggle');
         var darkIcon = document.getElementById('theme-toggle-dark-icon');
         var lightIcon = document.getElementById('theme-toggle-light-icon');
@@ -2430,13 +1130,11 @@
             });
         });
 
-        // --- 4. GITHUB API ---
-        const githubUsername = 'GOLBIN-Dorian'; // <-- REMPLACE ICI
+        const githubUsername = 'GOLBIN-Dorian';
         const container = document.getElementById('projects-container');
         const profileLink = document.getElementById('github-profile-link');
         profileLink.href = `https://github.com/${githubUsername}`;
 
-        // Injecter squelettes
         container.innerHTML = getSkeletonHTML().repeat(3);
 
         const getLanguageColor = (lang) => {
@@ -2454,7 +1152,7 @@
         fetch(`https://api.github.com/users/${githubUsername}/repos?sort=updated&direction=desc`)
             .then(response => response.json())
             .then(data => {
-                container.innerHTML = ''; // Enlever squelettes
+                container.innerHTML = '';
                 if (data.message === "Not Found") return;
 
                 const myRepos = data.filter(repo => !repo.fork && repo.name !== 'GOLBIN-Dorian').slice(0, 5);
@@ -2463,7 +1161,7 @@
                 myRepos.forEach(repo => {
                     const card = document.createElement('div');
                     card.className = 'flex flex-col bg-white dark:bg-dark-card border border-slate-100 dark:border-slate-800 rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full cursor-pointer group';
-                    card.onclick = () => openProjectModal(repo); // Click ouvre la modale
+                    card.onclick = () => openProjectModal(repo);
 
                     const langClass = getLanguageColor(repo.language);
                     const langBadge = repo.language ? `<span class="${langClass} tech-badge">${repo.language}</span>` : '';
@@ -2487,9 +1185,8 @@
                 });
             });
 
-        // --- 5. GESTION DES FLUX RSS ---
+
         const feedContainer = document.getElementById('rss-feed-container');
-        // Injecter squelettes RSS
         feedContainer.innerHTML = `
             <div class="animate-pulse space-y-4">
                 <div class="h-16 bg-slate-100 dark:bg-slate-800 rounded-lg"></div>
